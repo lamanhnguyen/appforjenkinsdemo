@@ -4,8 +4,8 @@ pipeline {
     APPSYSID = '5e0e65cd87e18a10271233383cbb3564'
     BRANCH = "${BRANCH_NAME}"
     CREDENTIALS = 'sn-creds'
-    DEVENV = 'https://democn5.service-now.com/'
-    TESTENV = 'https://democn3.service-now.com/'
+    DEVENV = 'https://democn3.service-now.com/'
+    TESTENV = 'https://democn5.service-now.com/'
     PRODENV = 'https://democn.service-now.com/'
     TESTSUITEID = '845f8b900b20220050192f15d6673aee'
   }
