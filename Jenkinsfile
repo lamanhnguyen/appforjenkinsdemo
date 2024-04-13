@@ -2,7 +2,7 @@ pipeline {
   agent any
   environment {
     APPSYSID = '5e0e65cd87e18a10271233383cbb3564'
-    PUBLISHEDAPPVERSION = '1.0.6'
+    APPVERSION = '1.0.6'
     BRANCH = "${BRANCH_NAME}"
     CREDENTIALS = 'sn-creds'
     DEVENV = 'https://democn5.service-now.com/'
@@ -29,7 +29,7 @@ pipeline {
         }
       }
       steps {
-        snInstallApp(credentialsId: "${CREDENTIALS}", url: "${TESTENV}", appSysId: "${APPSYSID}", appVersionToInstall: "${PUBLISHEDAPPVERSION}")
+        snInstallApp(credentialsId: "${CREDENTIALS}", url: "${TESTENV}", appSysId: "${APPSYSID}", appVersion: "${APPVERSION}")
         snRunTestSuite(credentialsId: "${CREDENTIALS}", url: "${TESTENV}", testSuiteSysId: "${TESTSUITEID}", withResults: true)
       }
     }
