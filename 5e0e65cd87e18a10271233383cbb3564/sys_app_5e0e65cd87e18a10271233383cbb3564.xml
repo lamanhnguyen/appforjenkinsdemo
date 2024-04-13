@@ -24,7 +24,7 @@
         <scoped_administration>false</scoped_administration>
         <short_description/>
         <source>5e0e65cd87e18a10271233383cbb3564</source>
-        <store_correlation_id>REPOAPP0000018270</store_correlation_id>
+        <store_correlation_id>REPOAPP0000018271</store_correlation_id>
         <store_url/>
         <subscription_entitlement/>
         <sys_class_name>sys_app</sys_class_name>
@@ -32,16 +32,16 @@
         <sys_created_by>lamanh.nguyen@snc</sys_created_by>
         <sys_created_on>2024-04-12 04:36:32</sys_created_on>
         <sys_id>5e0e65cd87e18a10271233383cbb3564</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_updated_by>lamanh.nguyen</sys_updated_by>
-        <sys_updated_on>2024-04-13 17:30:36</sys_updated_on>
+        <sys_updated_on>2024-04-13 18:09:30</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.6</version>
+        <version>1.0.9</version>
     </sys_app>
     <sys_translated_text action="delete_multiple" query="documentkey=5e0e65cd87e18a10271233383cbb3564"/>
 </record_update>
